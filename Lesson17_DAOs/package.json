@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.3.0-beta.13",
+    "@openzeppelin/contracts": "^4.7.3",
+    "@typechain/ethers-v5": "^10.1.0",
+    "@typechain/hardhat": "^6.1.2",
+    "@types/chai": "^4.3.3",
+    "@types/node": "^18.7.14",
+    "ethers": "^5.7.0",
+    "hardhat": "^2.11.0",
+    "hardhat-deploy": "^0.11.13",
+    "ts-node": "^10.9.1",
+    "typechain": "^8.1.0",
+    "typescript": "^4.8.2"
+  }
+}
