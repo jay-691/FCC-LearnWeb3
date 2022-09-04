@@ -1,1 +1,0 @@
-When installing npm packages you will have to add --legacy-peer-deps as some of the installed packages aren't on the same versions of packages as others.
