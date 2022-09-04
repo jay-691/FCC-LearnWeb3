@@ -1,0 +1,32 @@
+{
+    "name": "simple_storage",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "npx hardhat test",
+        "deploy": "npx hardhat run scripts/deploy.js --network hardhat"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+        "@nomiclabs/hardhat-ethers": "^2.1.1",
+        "@nomiclabs/hardhat-etherscan": "^3.1.0",
+        "@typechain/ethers-v5": "^10.1.0",
+        "@typechain/hardhat": "^6.1.2",
+        "@types/chai": "^4.3.3",
+        "@types/mocha": "^9.1.1",
+        "@types/node": "^18.7.13",
+        "dotenv": "^16.0.1",
+        "hardhat": "^2.10.2",
+        "hardhat-gas-reporter": "^1.0.8",
+        "prettier": "^2.7.1",
+        "prettier-plugin-solidity": "^1.0.0-beta.24",
+        "solidity-coverage": "^0.7.21",
+        "ts-node": "^10.9.1",
+        "typechain": "^8.1.0",
+        "typescript": "^4.7.4"
+    }
+}

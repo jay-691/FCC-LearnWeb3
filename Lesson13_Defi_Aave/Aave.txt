@@ -1,0 +1,3 @@
+Aave is a borrowing DeFi. You put in money and people can borrow your money and you then earn
+interest on it.
+
