@@ -1,0 +1,11 @@
+node_modules
+package.json
+package-lock.json
+img
+artifacts
+cache
+coverage
+.env
+.*
+README.md
+coverage.json
