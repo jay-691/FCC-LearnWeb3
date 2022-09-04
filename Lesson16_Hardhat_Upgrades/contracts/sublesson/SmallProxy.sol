@@ -63,5 +63,5 @@ contract ImplementationB {
         value = newValue + 2;
     }
 
-    function setImplementation() {}
+    function setImplementation() public {}
 }
