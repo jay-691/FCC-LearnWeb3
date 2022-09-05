@@ -1,0 +1,7 @@
+Unit tests are done locally
+
+Can be done with:
+- local hardhat
+- forked hardhat
+
+Test functions of the contracts individually
