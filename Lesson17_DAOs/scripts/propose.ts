@@ -21,7 +21,7 @@ export async function propose(args: any[], functionToCall: string, proposalDescr
 		await moveBlocks(VOTING_DELAY + 1);
 	}
 
-	const proposalId = proposeReceipt.event[0].args.proposalId;
+	const proposalId = proposeReceipt.events[0].args.proposalId;
 	let proposals = JSON.parse(fs.readFileSync(proposalsFile, "utf8"));
 	proposals[network.config.chainId!.toString()].push(proposalId.toString());
 	fs.writeFileSync(proposalsFile, JSON.stringify(proposals));
